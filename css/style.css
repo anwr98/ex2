@@ -23,7 +23,7 @@ a
 }
 a:hover
 {
- text-decoration: underline black;   
+ text-decoration: underline blue;   
 }
 #logo
 {
@@ -222,24 +222,27 @@ background: #9B51E0;
 #car
 {
     background-image: url(../images/logo.png);
-    background-repeat: no-repeat;
+    background-size: contain;
     width: 48px;
     height: 48px;
     margin-left: 16px;
-    margin-top: 16px;
+    margin-top: 8px;
     display: block;
 
 }
 #car span
 {
-    margin-top: 96px;
-    margin-left: 80px;
-    font-family: Open Sans;
+    width: 60px;
+    height: 14px;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-left: 64px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 14px;
-    color: #FFFFFF;
+    color: white;
+    float: left;
 }
 #section2
 {
